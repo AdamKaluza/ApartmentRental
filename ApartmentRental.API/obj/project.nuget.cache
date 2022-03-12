@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "aZ7H44b34K2PS24m9qHE0VPsHu7pgPDq61q9alcDsZq1CnLw826lymWt8lX9Y7QF5IkrqWr4iAbjlTb6+FI4ig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s20831\\RiderProjects\\ApartmentRental.API\\ApartmentRental.API\\ApartmentRental.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s20831\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\s20831\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\s20831\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\s20831\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\s20831\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\s20831\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
