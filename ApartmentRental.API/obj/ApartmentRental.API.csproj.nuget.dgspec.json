@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\s20831\\RiderProjects\\ApartmentRental.API\\ApartmentRental.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\s20831\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,6 +62,12 @@
               "target": "Package",
               "version": "[6.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -99,7 +105,7 @@
         "outputPath": "C:\\Users\\s20831\\RiderProjects\\ApartmentRental.API\\ApartmentRental.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\s20831\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,7 +163,7 @@
         "outputPath": "C:\\Users\\s20831\\RiderProjects\\ApartmentRental.API\\ApartmentRental.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\s20831\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -196,6 +202,12 @@
               "version": "[6.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.3, )"
             }

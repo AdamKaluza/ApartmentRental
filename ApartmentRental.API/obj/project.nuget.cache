@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "goU1h035+u32kxWh0xigFqps61X6ELhUlvXRQKXt4OuPh1Gk7rSmvjKUkhKSeEpkjnRrXdkBq/mcRvRbeHYKlQ==",
+  "dgSpecHash": "TF0qEdfH2B+w8i9uIRmBocDi3GjlBgrs2J1nRhPjHlEopX3feyY4pDMjhsfd04Aiy825ui+t1qhq45tJnBacOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\s20831\\RiderProjects\\ApartmentRental.API\\ApartmentRental.API\\ApartmentRental.API.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\s20831\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.3\\microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
     "C:\\Users\\s20831\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.3\\microsoft.entityframeworkcore.sqlite.6.0.3.nupkg.sha512",
     "C:\\Users\\s20831\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.3\\microsoft.entityframeworkcore.sqlite.core.6.0.3.nupkg.sha512",
+    "C:\\Users\\s20831\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.3\\microsoft.entityframeworkcore.tools.6.0.3.nupkg.sha512",
     "C:\\Users\\s20831\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\s20831\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\s20831\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

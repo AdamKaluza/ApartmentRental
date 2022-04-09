@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace ApartmentRental.Core.Entities;
+namespace ApartmentRental.Infrastructure.Entities;
 
 public class Address : BaseEntity
 {
