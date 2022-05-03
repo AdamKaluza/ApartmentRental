@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\s20831\\RiderProjects\\ApartmentRental.API\\ApartmentRental.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\s20831\\AppData\\Roaming\\NuGet\\NuGet.Config",
