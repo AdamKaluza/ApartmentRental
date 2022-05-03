@@ -2,7 +2,7 @@
 
 namespace ApartmentRental.Infrastructure.Repository;
 
-public interface ILandLordRepository : IRepository<Landlord>
+public interface ILandlordRepository : IRepository<Landlord>
 {
     
 }

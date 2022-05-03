@@ -13,10 +13,14 @@ public class MainContext : DbContext
     public DbSet<Tenant> Tenant { get; set; }
     public DbSet<Address> Address { get; set; }
 
+    public MainContext()
+    {
+    }
+    
     public MainContext(DbContextOptions options) : base(options)
     {
     }
-
+    
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlite("DataSource=dbo.ApartmentRental.db");
