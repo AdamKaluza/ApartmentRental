@@ -31,14 +31,14 @@ public class AddressRepository : IAddressRepository
         throw new EntityNotFoundException();
     }
 
-    public async Task Add(Address entity)
+    public async Task AddAsync(Address entity)
     {
         entity.DateOfCreation = DateTime.UtcNow;
         await _mainContext.AddAsync(entity);
         await _mainContext.SaveChangesAsync();
     }
 
-    public async Task Update(Address entity)
+    public async Task UpdateAsync(Address entity)
     {
         var addressToUpdate = await _mainContext.Address.SingleOrDefaultAsync(x => x.Id == entity.Id);
 
@@ -66,7 +66,28 @@ public class AddressRepository : IAddressRepository
             _mainContext.Address.Remove(addressToDelete);
             await _mainContext.SaveChangesAsync();
         }
+        else
+        {
+            throw new EntityNotFoundException();
+        }
+    }
 
-        throw new EntityNotFoundException();
+    public async Task<int> GetAddressIdByItsAttributesAsync(string country, string city, string zipCode, string street, string buildingNumber,
+        string apartmentNumber)
+    {
+        var address = await _mainContext.Address.FirstOrDefaultAsync(x =>
+            x.Country == country && x.City == city && x.ZipCode == zipCode && x.Street == street
+            && x.BuildingNumber == buildingNumber && x.ApartmentNumber == apartmentNumber);
+        return address?.Id ?? 0;
+    }
+
+    public async Task<Address> CreateAndGetAsync(Address address)
+    {
+        address.DateOfCreation = DateTime.UtcNow;
+        address.DateOfUpdate = DateTime.UtcNow;
+        await _mainContext.AddAsync(address);
+        await _mainContext.SaveChangesAsync();
+
+        return address;
     }
 }

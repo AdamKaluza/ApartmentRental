@@ -38,14 +38,14 @@ public class LandlordRepository : ILandlordRepository
         throw new EntityNotFoundException();
     }
 
-    public async Task Add(Landlord entity)
+    public async Task AddAsync(Landlord entity)
     {
         entity.DateOfCreation = DateTime.UtcNow;
         await _mainContext.AddAsync(entity);
         await _mainContext.SaveChangesAsync();
     }
 
-    public async Task Update(Landlord entity)
+    public async Task UpdateAsync(Landlord entity)
     {
         var landlordToUpdate = await _mainContext.Landlord.SingleOrDefaultAsync(x => x.Id == entity.Id);
 
@@ -69,7 +69,9 @@ public class LandlordRepository : ILandlordRepository
             _mainContext.Landlord.Remove(landlordToDelete);
             await _mainContext.SaveChangesAsync();
         }
-
-        throw new EntityNotFoundException();
+        else
+        {
+            throw new EntityNotFoundException();
+        }
     }
 }

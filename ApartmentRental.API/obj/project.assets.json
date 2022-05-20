@@ -547,6 +547,9 @@
       "ApartmentRental.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ApartmentRental.Infrastructure": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ApartmentRental.Core.dll": {}
         },
@@ -558,7 +561,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ApartmentRental.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.3"
         },
@@ -1391,6 +1393,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ApartmentRental.Core >= 1.0.0",
       "ApartmentRental.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
@@ -1424,6 +1427,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
+              "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj"
+            },
             "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
               "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
             }
@@ -1483,7 +1489,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -39,14 +39,14 @@ public class ImageRepository : IImageRepository
         throw new EntityNotFoundException();
     }
 
-    public async Task Add(Image entity)
+    public async Task AddAsync(Image entity)
     {
         entity.DateOfCreation = DateTime.UtcNow;
         await _mainContext.AddAsync(entity);
         await _mainContext.SaveChangesAsync();
     }
 
-    public async Task Update(Image entity)
+    public async Task UpdateAsync(Image entity)
     {
         var imageToUpdate = await _mainContext.Image.SingleOrDefaultAsync(x => x.Id == entity.Id);
 
@@ -70,7 +70,9 @@ public class ImageRepository : IImageRepository
             _mainContext.Image.Remove(imageToDelete);
             await _mainContext.SaveChangesAsync();
         }
-
-        throw new EntityNotFoundException();
+        else
+        {
+            throw new EntityNotFoundException();
+        }
     }
 }

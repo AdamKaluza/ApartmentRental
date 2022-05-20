@@ -16,8 +16,6 @@
       </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\ApartmentRental.Core\ApartmentRental.Core.csproj" />
-    </ItemGroup>
+
 
 </Project>

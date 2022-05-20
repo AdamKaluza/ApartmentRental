@@ -38,7 +38,7 @@ public class ApartmentRepository : IApartmentRepository
         throw new EntityNotFoundException();
     }
 
-    public async Task Add(Apartment entity)
+    public async Task AddAsync(Apartment entity)
     {
         var apartment = await _mainContext.Apartment.SingleOrDefaultAsync(x => x.Address == entity.Address);
 
@@ -46,13 +46,13 @@ public class ApartmentRepository : IApartmentRepository
         {
             throw new EntityAlreadyExistException();
         }
-        
+
         entity.DateOfCreation = DateTime.UtcNow;
         await _mainContext.AddAsync(entity);
         await _mainContext.SaveChangesAsync();
     }
 
-    public async Task Update(Apartment entity)
+    public async Task UpdateAsync(Apartment entity)
     {
         var apartmentToUpdate = await _mainContext.Apartment.SingleOrDefaultAsync(x => x.Id == entity.Id);
 
@@ -79,7 +79,9 @@ public class ApartmentRepository : IApartmentRepository
             _mainContext.Apartment.Remove(apartmentToDelete);
             await _mainContext.SaveChangesAsync();
         }
-
-        throw new EntityNotFoundException();
+        else
+        {
+            throw new EntityNotFoundException();
+        }
     }
 }

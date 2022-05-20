@@ -26,6 +26,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
+                "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj"
+              },
               "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
                 "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
               }
@@ -85,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -110,7 +113,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj": {
+                "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Infrastructure/ApartmentRental.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -137,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -162,11 +169,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj": {
-                "projectPath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/ApartmentRental.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -209,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
