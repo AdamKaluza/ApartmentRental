@@ -18,7 +18,7 @@ public class LandLordService : ILandLordService
         _accountRepository = accountRepository;
     }
 
-    public async Task AddNewLandLord(LandLordCreationRequestDto dto)
+    public async Task CreateNewLandLordAccountAsync(LandLordCreationRequestDto dto)
     {
         var addressId = await _addressService.GetAddressIdOrCreateAsync(dto.Country,
             dto.City, dto.ZipCode, dto.Street, dto.BuildingNumber, dto.ApartmentNumber);

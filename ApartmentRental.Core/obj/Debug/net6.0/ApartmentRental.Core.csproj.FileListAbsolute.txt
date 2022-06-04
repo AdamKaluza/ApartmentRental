@@ -22,3 +22,6 @@ C:/Users/s20831/RiderProjects/ApartmentRental.API/ApartmentRental.Core/obj/Debug
 /home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/obj/Debug/net6.0/refint/ApartmentRental.Core.dll
 /home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/obj/Debug/net6.0/ApartmentRental.Core.pdb
 /home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/obj/Debug/net6.0/ref/ApartmentRental.Core.dll
+/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/bin/Debug/net6.0/ApartmentRental.Infrastructure.dll
+/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/bin/Debug/net6.0/ApartmentRental.Infrastructure.pdb
+/home/adam/Pulpit/ApartmentRental/ApartmentRental.Core/obj/Debug/net6.0/ApartmentRental.Core.csproj.CopyComplete

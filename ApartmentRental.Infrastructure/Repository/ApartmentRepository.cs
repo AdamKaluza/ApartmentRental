@@ -14,7 +14,7 @@ public class ApartmentRepository : IApartmentRepository
         _mainContext = mainContext;
     }
 
-    public async Task<IEnumerable<Apartment>> GetAll()
+    public async Task<IEnumerable<Apartment>> GetAllAsync()
     {
         var apartments = await _mainContext.Apartment.ToListAsync();
 
