@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DpCgoArhAjcJGSQyMRGyaF64AgZ8dPG43N55+8gjikQo0iiBpvr8KG97DbK76JNZSaj1JPWigZBTp5ymfJOdew==",
+  "dgSpecHash": "qrBChlYK0r/XT8ti6zfEB+DapmNM/M97Rn1lfC9JLT9bQpcx0ERPQNZPKWmPqWcnrok7IEQ+3twF2+Os3O0Y2w==",
   "success": true,
   "projectFilePath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.API/ApartmentRental.API.csproj",
   "expectedPackageFiles": [

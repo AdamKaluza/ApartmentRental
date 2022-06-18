@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WDmNYP/aAYsYPVigYm1ejVxLlla2qZJrqC+necPIcEQVJ3zp6up0ELII/o7O47pua8hA4OMazNtYNDvj8f03Gw==",
+  "dgSpecHash": "FHRinHShZQROXVofI1ZDZOZWtwWp2JNFIWYQiTWShmTBLmwnGH4oJAdZOLbn+z0zQWSRa3SUIT2lYjuwTPNm6Q==",
   "success": true,
   "projectFilePath": "/home/adam/Pulpit/ApartmentRental/ApartmentRental.Tests/ApartmentRental.Tests.csproj",
   "expectedPackageFiles": [
